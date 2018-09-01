@@ -46,7 +46,7 @@ alSourcePlay(source)
 # wait for sound to finish playing
 sleep(2500)
 
-# taredown and error handling
+# teardown and error handling
 alDeleteSources(1, addr source)
 alDeleteBuffers(1, addr buffer)
 alcDestroyContext(ctx)
